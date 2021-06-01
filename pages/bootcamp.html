@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JMServices</title>
-    <link rel="stylesheet" href="https://wearejmservices.com/style.css">
+    <link rel="stylesheet" href="https://wearejmservices.com/bootcamp.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -50,12 +51,49 @@
             <h2 class="title">Previous Schools</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="https://wearejmservices.com/images/joshua.jpg" alt="">
-                </div>
-                <div class="column right">
-                    <p>Meet Joshua Malemba, founder, and self-employed freelancer, now operating as “JMServices”. By profession, he works as a software developer at Uniper Energy, having already completed 2 years of his software engineering degree at University of Leicester, he will embark on his final year from Oct 2022. His technical speciality orientates around Mobile App Development, Data Analytics with further web development involvements.</p>
-                    <a href="https://wearejmservices.com/files/CV.docx" download>See Our Reviews</a>
-                </div>
+
+        <div class="w3-content w3-section">
+
+          <img class="mySlides" src="https://wearejmservices.com/images/class.JPG" style="width:85%">
+          <img class="mySlides" src="https://wearejmservices.com/images/class 2 (3).JPG" style="width:85%">
+          <img class="mySlides" src="https://wearejmservices.com/images/class 3.JPG" style="width:85%">
+          <img class="mySlides" src="https://wearejmservices.com/images/class 4.JPG" style="width:85%">
+          <img class="mySlides" src="https://wearejmservices.com/images/images/class 5.JPG" style="width:85%">
+
+        </div>
+    </div>
+        <div class="column right" style="right:0%">
+            <p>To the left are few scenes of our 3 week bootcamp in action at Beaumont Leys School.
+
+                One particular highlight was the “Sell Me Your App” workshop, which entailed students inventing a new mobile app which would be able to challenge the common roadblock faced in being turned down due to an applicant’s ethnic descent when applying for a job.
+                
+                <br>
+                The creativity which the students demonstrated was fascinating. Ideas included an app with cryptographic capabilities, in order to act as a medium between applicants and recruiters, wherein the applicant’s name will be translated to an encrypted ID Code before send-off, so that the recruiter focuses on the skills displayed on the CV rather than the descent of the applicant’s name.
+                
+                </p>
+         <!---       <a href="https://wearejmservices.com/files/Reviews - Beaumont Leys.docx" download>Our Reviews</a> -->
+                <a href="https://wearejmservices.com/files/Reviews - Beaumont Leys.docx" download>Our Reviews</a>
+
+
+        </div>
+       </div>
+
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+            </script>
             </div>
         </div>
     </section>
@@ -63,26 +101,21 @@
     <!-- services section start -->
     <section class="services" id="services">
         <div class="max-width">
-            <h2 class="title">Our Services</h2>
+            <h2 class="title">Our Prices</h2>
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
-                        <div class="text">3 Week Coding Bootcamp</div>
-                        <p>Educating students on fundamental topics of the industry leading Python programming language.</p>
+                        <div class="text">£25 an hour</div>
+                        <p>1 Hour Sessions For £25 each</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <div class="text">Bespoke App Development</div>
-                        <p>Development of bespoke apps for your e-commerce, personal brand and more.</p>
+                        <div class="text">£43 for 2 Hours</div>
+                        <p>£43 for 2 Hour Packaged Sessions</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="box">
-                        <div class="text">1 Day Workshops - Entrepreneurship</div>
-                        <p>Educating students on entrepreneurship and freelancing opportunities in Tech</p>
-                    </div>
-                </div>
+                
                </div>
             </div>
         </div>
@@ -99,6 +132,14 @@
                             <div class="info">
                                 <div class="head">Name</div>
                                 <div class="sub-title">Joshua Malemba</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Linkedin</div>
+                                <div class="sub-title">linkedin.com/company/wearejmservices</div>
+            
                             </div>
                         </div>
                         <div class="row">
@@ -127,6 +168,7 @@
         <span>Developed By JMServices </a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
 
-    <script src="https://wearejmservices.com/script.js"></script>
+    <script src="https://wearejmservices.com/bootcamp script.js"></script> 
+
 </body>
 </html>
