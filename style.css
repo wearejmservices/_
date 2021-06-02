@@ -168,16 +168,15 @@ section .title::after{
     display: flex;
  /*   background: url("images/IMG_7494_jpg.jpg") no-repeat center; */
     background: url("images/home.jpg") no-repeat center;
-
     height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
-  width: 50%; 
+  width: 100%; 
   display: flex;
 }
 .home .max-width .row{
