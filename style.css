@@ -163,6 +163,8 @@ section .title::after{
 
 
 /* home section styling */
+@media only screen and (min-width: 768px){ 
+
 .home{
     display: flex;
  /*   background: url("images/IMG_7494_jpg.jpg") no-repeat center; */
@@ -175,8 +177,9 @@ section .title::after{
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
+}
 .home .max-width{
-  width: 100%;
+ /* width: 100%; */
   display: flex;
 }
 .home .max-width .row{
