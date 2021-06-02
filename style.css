@@ -163,7 +163,6 @@ section .title::after{
 
 
 /* home section styling */
-@media only screen and (min-width: 768px){ 
 
 .home{
     display: flex;
@@ -177,9 +176,8 @@ section .title::after{
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
-}
 .home .max-width{
- /* width: 100%; */
+  width: 50%; 
   display: flex;
 }
 .home .max-width .row{
