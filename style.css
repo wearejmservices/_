@@ -166,8 +166,8 @@ section .title::after{
 
 .home{
     display: flex;
- /*   background: url("images/IMG_7494_jpg.jpg") no-repeat center; */
-    background: url("images/home.jpg") no-repeat center;
+    background: url("images/IMG_7494_jpg.jpg") no-repeat center; 
+ /*   background: url("images/home.jpg") no-repeat center; */
     height: 100vh;
     color: #fff;
     min-height: 500px;
